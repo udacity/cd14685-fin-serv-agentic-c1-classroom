@@ -1,0 +1,151 @@
+customer_id,name,date_of_birth,ssn_last_4,address,phone,customer_since,risk_rating,occupation,annual_income
+CUST_0001,Allison Hill,1958-08-25,2679,"600 Jeffery Parkways, New Jamesside, MT 29394",394.802.6542x351,2016-06-14,Low,Local government officer,48815
+CUST_0002,Renee Blair,1978-05-14,7201,"959 Janet Cape Apt. 413, South Joshuastad, GA 49021",(534)719-2832x764,2023-03-03,Low,Banker,72005
+CUST_0003,Andrew Stewart,1961-06-14,4456,"PSC 9537, Box 6724, APO AE 32826",001-388-249-6965x3287,2023-05-02,Low,"Designer, ceramics/pottery",48664
+CUST_0004,Rebecca Henderson,1948-08-02,7252,"480 Erin Plain Suite 514, Mooretown, VA 94830",282-781-4893x252,2019-12-25,Low,Clinical research associate,54285
+CUST_0005,Sherry Decker,1963-12-16,1949,"71822 Arroyo Expressway, Allisonchester, IL 71187",001-534-565-7871x33150,2015-08-25,Low,Barrister's clerk,87356
+CUST_0006,Taylor Heath,1949-01-18,4899,"82997 Kristen Valley Suite 311, Gomezchester, NH 96062",9104651333,2019-05-19,Low,Health promotion specialist,47484
+CUST_0007,Shannon Jones,1995-06-28,2604,"32677 Michelle Circle, South Aaron, MS 35261",246.787.2343x098,2016-02-05,Low,Television/film/video producer,50732
+CUST_0008,Thomas Schmidt,1948-03-02,9320,"91361 Beth Canyon, South Dianeshire, NC 41968",935-334-6247x510,2016-03-29,Low,"Engineer, production",34412
+CUST_0009,Brandi Bailey,1948-12-01,5002,"8498 Elizabeth Plaza, Sarahville, FM 18102",911-682-4493x534,2023-09-24,Medium,Arts development officer,89675
+CUST_0010,Jeff Hill,1944-10-22,3143,"78680 Charles Spurs Apt. 805, South David, ME 48296",4535315869,2023-05-13,Low,"Editor, film/video",74552
+CUST_0011,Allison Doyle,1965-07-06,7745,"2160 Walker Viaduct, Baileybury, IN 03602",+1-636-454-1458x68501,2020-10-22,Low,Geochemist,39264
+CUST_0012,Kyle Reed,1994-02-16,8149,"9340 Smith Valley, West Ryan, TN 43780",+1-551-848-4656x482,2021-07-26,Low,Museum education officer,51104
+CUST_0013,Stephanie Gilbert,1963-07-18,9977,"3699 Marshall Mills Apt. 872, West Zacharymouth, CO 98954",343.932.0037,2019-04-25,Low,Teaching laboratory technician,30294
+CUST_0014,Michael Snyder,1959-12-16,1090,"3287 Angela Vista, South Dennismouth, TN 70117",+1-495-979-8687,2019-08-20,Low,Firefighter,58381
+CUST_0015,Destiny Strickland,1975-02-11,4919,"434 Flores Plains, East Edwardfurt, UT 20529",001-831-266-5876x036,2023-04-18,Low,Teaching laboratory technician,92044
+CUST_0016,Aaron Bell,1992-01-20,7865,"3467 Paul Skyway, Ramseymouth, PW 17229",+1-280-669-9016x272,2018-12-30,Low,"Engineer, mining",64448
+CUST_0017,George Hobbs,1962-02-11,7906,"0805 Debra Tunnel, Port Anthonybury, ID 03172",+1-323-427-1937x452,2024-04-07,Low,Clinical cytogeneticist,51875
+CUST_0018,Tanya Johnston,2001-10-15,7149,"93149 Laura Port, West Amandastad, CA 66818",+1-650-967-1657x2628,2019-10-08,High,"Therapist, drama",166876
+CUST_0019,Samuel Rivas,1950-01-17,8385,"965 Troy Islands Apt. 735, Matthewview, OH 01831",531.836.7837x77014,2021-10-22,Low,Information officer,49932
+CUST_0020,Jackie Tran,1966-03-29,6419,"4431 Leslie Summit Apt. 337, Jennyhaven, PA 37594",434-635-2408,2015-12-29,Low,Audiological scientist,95524
+CUST_0021,Melissa Martinez,1999-04-19,9042,"477 Peterson Center, Shelleyfort, DE 09065",(871)590-2294x1318,2022-07-25,Low,Museum/gallery conservator,69636
+CUST_0022,Jeremy Dalton,2006-12-15,6003,"133 Guerrero Estate, East Andrea, GA 00851",(579)874-0344x71349,2016-08-13,Low,Equality and diversity officer,57280
+CUST_0023,Susan Serrano,1949-01-31,3718,"1746 Mason Park Suite 190, Navarroview, AK 12471",999.604.9027,2017-03-20,Low,Textile designer,85883
+CUST_0024,Robert Costa,1974-03-12,7690,"56746 Shawn Island, Marcusfurt, VI 67950",9879603859,2022-06-04,Low,"Engineer, electronics",72446
+CUST_0025,Carlos Roberts,2000-01-29,8941,"248 Andrea Course, Port Robin, NH 15897",+1-827-548-4677x3782,2023-11-18,Low,Rural practice surveyor,47723
+CUST_0026,Breanna Jones,1993-04-06,7798,"44997 Sean Orchard Suite 588, Gibsonmouth, VI 25228",001-939-263-6057x662,2016-09-19,Low,Therapeutic radiographer,32602
+CUST_0027,Brian Kirk,1950-11-13,8486,"2174 Hanson Locks, Port Markside, MS 42006",+1-978-409-1343x1611,2021-10-30,Medium,Air cabin crew,197440
+CUST_0028,Robert Carter,1968-03-14,3385,"222 Chelsea Light Apt. 792, South Dana, NH 33967",+1-607-548-2175x94647,2024-07-29,Low,Radiation protection practitioner,69229
+CUST_0029,James Howard,1963-03-24,5837,"0909 Wall Heights Apt. 953, New John, WV 94994",001-421-504-7095x21456,2016-10-09,Low,"Solicitor, Scotland",91259
+CUST_0030,Holly Shaw,1961-10-02,3695,"5171 Karen Fork Suite 851, Smithside, DE 60110",(549)365-1370x985,2021-04-20,Low,"Psychologist, forensic",30614
+CUST_0031,Elizabeth Ortiz,1953-05-23,1609,"13826 Watson Summit Suite 926, Port Tracychester, KY 04789",001-853-677-3515x850,2017-04-16,Low,Community education officer,85274
+CUST_0032,Samantha Davis,1957-12-12,1349,"29318 Brenda Via Apt. 529, West Micheleberg, DC 71308",621-202-0539x502,2016-09-21,Low,"Pharmacist, community",72767
+CUST_0033,Nichole Alvarez,1993-08-07,9408,"390 Ellis Burgs Apt. 766, South Jennifermouth, CA 11090",992-812-4998x56984,2016-06-22,Low,Colour technologist,97528
+CUST_0034,Marilyn Mack,1989-12-30,4522,"5766 Larry Island, Nicholasberg, TX 62664",211-716-1528,2021-08-12,Low,Paediatric nurse,88775
+CUST_0035,Maurice Christensen,1999-04-10,1842,"Unit 9451 Box 9832, DPO AP 63702",815.285.1493,2021-01-23,Medium,"Geologist, engineering",123358
+CUST_0036,Donald Farmer,2002-08-22,6751,"612 Christopher Pines, South Robert, MA 21132",(645)999-1022x901,2021-07-16,Low,"Radiographer, diagnostic",76820
+CUST_0037,Jennifer Lewis,1976-11-11,6655,"978 Williams Locks Apt. 034, Port Derrick, KS 38439",810-276-2268x38851,2019-07-05,Low,Psychiatric nurse,30284
+CUST_0038,Shannon Johnston,1980-09-15,7843,"52975 Samuel Coves Apt. 696, South Monicamouth, IN 44156",001-621-581-8835x52312,2017-02-22,Medium,"Designer, ceramics/pottery",154343
+CUST_0039,Mary Thompson,1993-04-10,9095,"995 Hernandez Cliff Suite 744, West Williamport, NH 59734",8059411998,2020-10-21,Low,Architectural technologist,67919
+CUST_0040,Robert Pearson,1964-11-03,8792,"1518 Benjamin Station, Ritterhaven, NC 80429",(755)346-6590,2018-07-20,Low,"Surveyor, insurance",88292
+CUST_0041,Diane Cummings,1985-12-12,3463,"4629 Kyle Lane, Lisahaven, CO 85176",+1-468-350-5423x57332,2018-03-31,Low,Chiropractor,53998
+CUST_0042,Kimberly Rodgers,1977-10-03,6517,"622 Marie Trail, Lake Samuel, MT 48250",+1-937-994-7383x47359,2022-07-05,Low,Museum/gallery exhibitions officer,35457
+CUST_0043,Jennifer Martin,1957-03-02,3267,"758 Jennifer Path, West Christopherburgh, KY 59394",826.313.7506x06853,2018-12-16,Low,Air broker,66975
+CUST_0044,Brett Espinoza,1965-09-16,3392,"2779 Rebecca Brook Suite 328, Rodriguezport, IA 39973",203-569-7117,2022-01-18,Low,"Horticulturist, amenity",70186
+CUST_0045,Lucas Allen,1970-10-30,2402,"88888 Peter Mountains Apt. 654, West Kristinastad, IA 96569",+1-319-952-0585x27722,2015-12-01,High,"Engineer, drilling",433150
+CUST_0046,Curtis Williams,2003-05-21,9444,"0345 Michelle Isle Suite 156, Paulfurt, MA 24987",775.384.1616x9284,2016-04-21,Low,Hotel manager,50086
+CUST_0047,Lance Simmons,1988-01-15,6759,"640 Emily Lodge Suite 820, Port Cathy, WY 57933",4219355690,2024-02-14,Low,Meteorologist,57131
+CUST_0048,Billy Taylor,1967-09-14,6150,"02786 Jose Green, Lewisport, UT 64883",712.317.2715,2020-07-13,Low,Horticultural therapist,31194
+CUST_0049,Sarah Joseph,2003-01-02,3852,"32370 Spencer Land, Laraside, DC 80710",314-467-8669,2024-05-02,Low,"Buyer, retail",87868
+CUST_0050,Michael Cooper,1999-11-23,3981,"8018 Kevin Estates, Sarahbury, MI 68513",414-438-4249x8182,2021-07-06,Low,Trade union research officer,89132
+CUST_0051,Thomas Williams,1999-01-01,2330,"396 Tyler Road Suite 473, Evansland, UT 08353",(776)777-3592,2022-03-11,Low,Location manager,91583
+CUST_0052,Bianca Wood,1979-12-20,6228,"7321 Kelly Lights, Wrightburgh, GU 43418",001-953-227-8774,2016-05-23,Low,"Nurse, learning disability",77069
+CUST_0053,Tracy Lewis,1966-10-26,1828,"8016 Nicole Stream Suite 650, Williamsside, ID 48017",+1-341-468-7849,2024-05-11,Medium,"Nurse, mental health",131925
+CUST_0054,William Grant,1967-08-14,3363,"000 Jennifer Unions Suite 872, West Sarah, MD 21800",(794)795-8887x9470,2021-08-24,Low,Pension scheme manager,70866
+CUST_0055,Rebecca Swanson,1987-12-06,1436,"993 Brandy Extension Suite 230, East Andrewmouth, MT 20349",(836)789-7028x38578,2024-03-11,Low,Psychiatric nurse,61872
+CUST_0056,Gloria Gomez,1993-03-21,5331,"48434 Bush Spurs, Stewartstad, OH 95090",341-798-6652x404,2023-11-25,Medium,Furniture conservator/restorer,173635
+CUST_0057,Cindy Clayton,1961-08-31,5450,"08330 Robert Stravenue, Garciaberg, AL 72636",(367)573-4540,2020-05-26,High,Applications developer,163820
+CUST_0058,Carrie Khan,1955-08-29,1595,"Unit 6724 Box 0049, DPO AP 14565",947-688-7287x43152,2022-01-19,Low,"Administrator, education",75098
+CUST_0059,Rachel Bradley,1992-04-17,3875,"8516 Jack Dam Suite 530, Patrickmouth, WV 35496",649-390-4530x17426,2021-05-01,Low,Hotel manager,50728
+CUST_0060,Daniel Bernard,1974-09-16,8454,"8783 Erin Ranch Apt. 878, Christianshire, DE 08595",+1-983-398-2258,2021-09-15,Medium,Television production assistant,110144
+CUST_0061,Steven Griffin Jr.,1952-11-24,7806,"740 Scott Alley, New Charles, NE 45659",001-718-801-7046x226,2019-08-15,Low,Multimedia programmer,95233
+CUST_0062,Michael Stanley,1978-07-24,6697,"230 Tiffany Mountain Suite 863, South Michael, KY 25205",001-210-569-0331x1907,2022-04-01,Medium,Operational investment banker,128868
+CUST_0063,Joshua Webster,1993-06-23,3295,"95995 Kevin Divide Apt. 644, New Stacyburgh, SC 89466",(987)505-6856x62462,2023-03-24,Low,Hydrologist,44192
+CUST_0064,Brianna Ford,1948-03-19,7761,"Unit 8826 Box 3435, DPO AP 10864",551.583.0469x901,2019-11-24,Low,Learning mentor,37631
+CUST_0065,Terry Lewis,1956-07-22,2922,"93638 Rowe Light Suite 854, Michaelfort, NH 13425",001-875-635-5609x3204,2016-12-14,Low,Landscape architect,45747
+CUST_0066,Kelly Sanchez,1979-04-11,6530,"772 Jackson Stravenue Suite 280, Port Melanieton, WV 01337",(923)212-0387x50997,2015-08-23,Low,Structural engineer,47830
+CUST_0067,Alan Bowen,1978-05-03,5697,"11823 Christine Glen Suite 461, Susanmouth, OK 32378",001-234-410-1666x870,2016-04-29,Low,Politician's assistant,60974
+CUST_0068,Erin Madden,2005-12-08,9653,"PSC 3397, Box 4014, APO AP 74361",+1-802-750-3926x14293,2019-01-14,Low,Counselling psychologist,84459
+CUST_0069,Melissa Miller,1991-07-19,6666,"15999 Novak Islands Apt. 477, West Angela, MS 57104",(696)419-4311,2019-01-02,High,"Designer, exhibition/display",232981
+CUST_0070,Emily Rodriguez,1944-11-29,6050,"21267 Garcia Corners Suite 819, Michelletown, LA 54739",(918)439-8262x2444,2016-02-25,Low,"Presenter, broadcasting",50668
+CUST_0071,Elijah Patton,1967-05-03,5040,"937 Derek Avenue Suite 596, Scottchester, GU 85833",+1-924-559-3752x654,2018-07-08,High,Health visitor,236808
+CUST_0072,Jenna Wilson,1980-02-09,9939,"737 Guerra Cliff, Chambersberg, SC 40193",842.866.1797,2020-06-22,Low,Media buyer,78192
+CUST_0073,Robin Wheeler,2002-03-11,2791,"90965 Rodriguez Courts Suite 388, South Neil, NH 89571",001-382-350-7146,2023-01-24,Medium,Curator,90696
+CUST_0074,Grant Mueller,1977-05-31,6706,"751 Williams Station Apt. 051, Lake John, HI 72840",(858)867-3622,2015-11-05,Medium,Visual merchandiser,71438
+CUST_0075,Joanna Jordan,1944-11-12,4519,"182 Nguyen Mount, West Emilyfort, NC 84270",396-496-9155x79249,2018-05-27,Low,Field trials officer,73730
+CUST_0076,Clayton Steele,1976-10-07,7852,"2782 Tracy Dam Apt. 579, Port Michaeltown, NM 18396",968.487.6767,2016-04-29,High,Airline pilot,330108
+CUST_0077,Connie Johnson,1958-10-01,5729,"788 Ashley Grove Suite 807, South Curtis, MP 86179",001-834-407-4517x13395,2021-02-16,Low,"Engineer, maintenance",48911
+CUST_0078,Renee Hudson,1978-02-12,9827,"9481 Sydney Turnpike Suite 042, East Dustin, MD 32948",001-767-929-4667x11684,2024-02-19,Low,Land,91450
+CUST_0079,Sheila Boone,1950-06-15,8511,"86363 Adams Village Suite 589, New Melissa, WY 45555",+1-600-417-0127x70632,2023-06-15,Low,Graphic designer,98264
+CUST_0080,Isaac Miller,1986-06-13,3711,"361 Aaron Neck Apt. 293, Smithmouth, GU 16307",(427)413-6111x55426,2016-03-13,Low,"Surveyor, quantity",53341
+CUST_0081,Matthew Alexander,1990-02-05,3480,"PSC 9731, Box 1219, APO AP 50836",(665)223-4138x999,2023-03-20,Medium,Illustrator,175593
+CUST_0082,Lawrence Lopez,1969-04-07,1894,"6137 Allison Bridge, Sarahberg, MS 74999",(858)627-1091x04300,2021-03-29,Low,Retail banker,78736
+CUST_0083,Jessica Morales,1984-12-08,9808,"41832 Myers Roads Apt. 463, East Christopherchester, DE 59925",+1-690-442-1020x275,2018-12-06,Low,Geophysical data processor,34029
+CUST_0084,Bailey Yoder,1965-09-09,8034,"9177 Brown Walks, West Eric, WI 13988",001-913-780-0030,2019-01-11,Low,Dealer,84090
+CUST_0085,Tyler Johnson,1995-03-07,7870,"5419 Wilson Spring, East Jeffreyhaven, AZ 53051",774-545-1870,2018-03-17,Low,Industrial buyer,80163
+CUST_0086,Dana Richardson,2005-10-23,4201,"06038 Fields Square, West Aaronfurt, PR 97242",001-541-838-3670x2410,2021-11-21,Low,Microbiologist,41781
+CUST_0087,Paul Carpenter,1976-06-04,7461,"2344 Howe Lock, Louisview, IN 10290",729.812.1277,2016-09-01,Low,Materials engineer,58953
+CUST_0088,Christine Parker,1961-04-12,2964,"903 Hernandez Station Apt. 568, Lake Kentburgh, AK 53505",488.531.7121x003,2022-12-30,Low,Microbiologist,46319
+CUST_0089,Teresa Miller,1981-07-05,2228,"72151 Sheri Causeway, New Ryan, VA 52274",506.662.5324x4720,2020-01-27,Low,Statistician,33501
+CUST_0090,Brandon Reyes,1970-12-30,9614,"5787 Durham Parkway, Paulburgh, AK 42296",+1-530-540-7859x321,2017-12-25,Medium,Banker,54731
+CUST_0091,Theresa Johnston,2006-06-29,7363,"39559 Jade Knoll, New Stacy, MP 65018",+1-542-270-1039,2020-04-27,Low,Academic librarian,51622
+CUST_0092,Lucas Drake,1966-01-19,3907,"PSC 5002, Box 9218, APO AA 10007",(469)715-4522x675,2017-08-04,Low,Theme park manager,52328
+CUST_0093,Jamie Gross,1963-02-20,3911,"029 Mccall Ridge Apt. 917, West Julie, IA 45958",221-857-0433x15410,2019-07-12,Low,Personnel officer,51044
+CUST_0094,Stacey Snyder,1968-06-11,9946,"327 Lauren Bypass Suite 054, North Matthewfurt, GA 96443",481-859-9706,2016-12-30,Low,Chiropractor,60640
+CUST_0095,William Ortiz,1979-06-30,9849,"3106 Hernandez Lake Apt. 614, Gonzaleztown, IL 22892",+1-441-771-4677x4186,2023-07-21,Medium,Merchant navy officer,155257
+CUST_0096,Andrew Gonzales,1961-03-06,5400,"115 Arellano Radial, New Bruce, MS 68996",(487)393-7416x08989,2024-02-16,Low,"Production assistant, radio",87706
+CUST_0097,William Stanton,1995-07-08,3067,"632 Flores Stream, North Paulfurt, OH 43247",387-309-9861x622,2020-08-24,Low,Chiropractor,88151
+CUST_0098,Sharon Beard,1999-11-22,5327,"970 Joshua Divide Suite 065, North Julie, PW 35704",(705)644-4713x247,2022-02-21,Low,Trade union research officer,63776
+CUST_0099,Chelsea Lewis,1996-06-29,8937,"82148 Taylor Vista Apt. 233, East Antonioton, PW 47736",001-934-457-8610x357,2024-03-24,Low,Public relations account executive,63089
+CUST_0100,Hannah Martin,2000-12-08,2480,"29333 Joseph Lodge Apt. 072, New Lauren, IN 33582",+1-844-366-5743x748,2015-08-26,Low,Minerals surveyor,77156
+CUST_0101,Linda Campbell,1987-09-14,8892,"544 Lopez Path Apt. 096, Erintown, SD 65692",746-666-0993x5387,2023-03-11,Low,"Surveyor, insurance",66190
+CUST_0102,Brent Anderson,1960-11-17,3999,"USNV Pena, FPO AE 47068",346.955.4947,2016-01-25,Low,Television production assistant,71895
+CUST_0103,Lisa Kennedy,1956-11-03,2963,"460 Derrick Flats Suite 697, West Michelle, HI 11093",352.450.0743x2927,2021-02-10,Medium,"Pilot, airline",117356
+CUST_0104,Vincent Reyes,1946-12-18,4267,"8300 Jeremy Wells, Larryville, MS 66474",001-742-810-4478,2023-07-29,Low,Contractor,94103
+CUST_0105,Steven Howard,1956-06-15,7609,"230 David Station, South Nancyview, WI 70589",+1-609-901-0016x761,2021-11-25,Medium,"Engineer, land",110415
+CUST_0106,Lorraine Turner,1986-04-08,9524,"1891 Wilson Coves, Gonzalezborough, WI 34972",235.364.2087x37530,2023-09-29,Low,"Teacher, secondary school",60144
+CUST_0107,Brittany Davis,1976-10-27,2659,"PSC 3744, Box 7012, APO AE 38586",(656)311-0022x557,2018-12-08,Low,"Lighting technician, broadcasting/film/video",95781
+CUST_0108,James Rivers,1961-09-16,7319,"2120 Dale Ramp Suite 972, Maxwelltown, VI 90215",001-527-771-6701x4508,2020-04-03,Low,Water engineer,89428
+CUST_0109,Matthew Wright,1966-05-14,7305,"28772 Karen Islands, West Tara, AR 66945",986.363.1779,2023-04-17,Low,Product manager,55531
+CUST_0110,William Mcgee,1945-09-14,7609,"99488 Diamond Motorway, Michaelton, GU 29719",758.799.7571x130,2023-01-19,Low,"Horticulturist, amenity",49628
+CUST_0111,Jacqueline Rodriguez,2001-02-01,9067,"49331 Lewis Views Apt. 516, Lake Maryshire, DE 59549",498.427.0808x697,2022-02-27,High,"Conservation officer, historic buildings",306379
+CUST_0112,Matthew Obrien,1964-11-10,7302,"6547 Devon Rapids, Meganside, VI 41645",001-783-333-9452x288,2022-06-06,Low,"Surveyor, planning and development",56923
+CUST_0113,Mr. Michael Butler,1991-09-13,9747,"81062 Ellen Flats Suite 244, Port Bryan, WY 39185",880.557.1983,2020-03-07,Low,Holiday representative,41659
+CUST_0114,Amber James,1970-10-30,6122,"Unit 0043 Box 9735, DPO AP 72146",001-293-834-7212x2816,2018-02-04,Low,"Geneticist, molecular",44373
+CUST_0115,Kevin Scott,1965-05-30,3536,"094 Tyler Plaza Suite 158, East Abigail, WY 66710",(768)786-1533,2018-10-30,Medium,Engineering geologist,180449
+CUST_0116,Lisa Wells,1979-12-13,1144,"3993 Felicia Islands Suite 164, Angelhaven, GU 49647",287.370.4358x11288,2017-06-24,Medium,"Engineer, production",115319
+CUST_0117,Jessica Garcia,1978-06-18,8130,"207 Johnson Cliffs, East Lauraside, CA 75862",846.367.6650,2020-05-25,Low,Water engineer,61692
+CUST_0118,Patrick Williams,1998-01-09,6860,"PSC 1449, Box 1476, APO AA 87103",4726832684,2021-09-05,Medium,Midwife,104667
+CUST_0119,Alexandra Baxter,1953-06-29,1684,"814 Kaitlin Stream Suite 368, East Jack, RI 33628",612.390.8781,2017-11-03,Low,"Engineer, civil (consulting)",56981
+CUST_0120,Katelyn Rivera,1952-08-30,4842,"57759 Steele Drives, Lindseychester, GA 01134",333-464-5257x77547,2021-05-23,Low,Ceramics designer,94260
+CUST_0121,Shannon Taylor,1978-07-08,5312,"108 Lisa Prairie, Hammondborough, PW 05305",+1-648-487-2563,2019-10-07,Low,"Sales professional, IT",73522
+CUST_0122,Jack Smith,1959-08-20,3717,"2299 Jill Orchard, Billyfort, IN 08740",753-303-8567x700,2021-12-01,Low,"Scientist, research (life sciences)",77952
+CUST_0123,Denise Harmon,1981-01-14,3848,"9184 Kaufman Fork Suite 557, Eatontown, NY 18715",323.518.4322x259,2019-04-25,Low,Lawyer,92671
+CUST_0124,Karen Mendoza,1957-11-10,3641,"30299 Dennis Passage Apt. 920, West Sandra, NC 53644",+1-890-441-3797x723,2022-09-25,Low,"Education officer, environmental",74930
+CUST_0125,Kayla Jackson,1987-10-11,8429,"66210 Alexandra Parkways, Serranoville, HI 62874",+1-890-888-1172x980,2018-12-01,Medium,Armed forces logistics/support/administrative officer,58685
+CUST_0126,Jessica Mays,1974-12-16,7246,"2473 Justin Wells, Scotttown, VT 97972",8987180635,2016-07-17,Low,Physiological scientist,78373
+CUST_0127,Dawn Wyatt,1971-04-09,6990,"68872 Hansen Orchard Suite 495, Fitzgeraldville, WA 30617",221.338.6589x026,2022-12-29,Low,Public affairs consultant,38094
+CUST_0128,Jessica Brown,1958-07-22,2311,"9849 Sonya Viaduct Apt. 770, Port Diane, AS 68416",430-398-8392x0530,2024-07-21,Low,Office manager,63844
+CUST_0129,James Willis,1977-03-15,2124,"PSC 8489, Box 5543, APO AP 25997",669.704.2681x818,2024-02-08,Medium,Scientific laboratory technician,170114
+CUST_0130,Sherri Li,1980-10-20,8254,"Unit 9735 Box 7790, DPO AA 15740",516-633-5658x804,2016-06-02,Low,"Lighting technician, broadcasting/film/video",71725
+CUST_0131,Timothy Woods,1966-11-09,5408,"3334 Jermaine Village, Port Christine, FL 14484",717-990-8075,2023-09-01,Low,"Teacher, special educational needs",54714
+CUST_0132,Katherine Joyce,2002-04-17,5591,"86780 Long Spur, South Tiffany, UT 68423",450.603.6915x594,2017-09-19,Low,Public affairs consultant,55361
+CUST_0133,Grace White,1971-04-17,7866,"6472 Tiffany Spur Apt. 143, Chaseborough, FL 97303",(770)926-7288,2018-04-14,Low,"Surveyor, planning and development",69172
+CUST_0134,Amber Garcia,1954-11-16,4530,"175 Ward Points Suite 506, West Michelleborough, OK 75984",+1-982-445-5877x1694,2023-05-25,Low,Leisure centre manager,76209
+CUST_0135,Logan Sullivan,2001-09-23,2296,"5449 Nelson Mills, Juliehaven, NV 54763",(820)323-4132,2016-06-11,Medium,Public librarian,178272
+CUST_0136,Allison Sanders,1992-10-11,2363,"64334 Sims Curve, North Austin, MI 43125",878.648.7282x9979,2023-10-06,Low,Race relations officer,68182
+CUST_0137,Regina Ramos,1967-08-18,5256,"82547 Gwendolyn Overpass, Evanschester, AS 38894",+1-830-885-3686x632,2017-07-27,Medium,Cartographer,129672
+CUST_0138,David Duran,2001-11-29,5454,"3122 Rodriguez Motorway Suite 497, West Andrew, AR 70620",3214442703,2015-09-19,Low,"Engineer, water",30490
+CUST_0139,Eric Lloyd,2007-06-16,8597,"1204 Jones Mountains, East Paula, KS 50515",3135673037,2019-11-03,Low,Insurance underwriter,64890
+CUST_0140,Caitlin Chandler,1991-07-03,9534,"435 Michelle Forge Apt. 365, East Laurashire, DE 52380",500.497.9251,2020-01-31,Low,Water engineer,80421
+CUST_0141,Wayne Malone,1948-05-14,6824,"73585 Quinn Brooks, Howardberg, KS 05676",678.448.7392x8557,2016-03-15,Medium,"Designer, fashion/clothing",92717
+CUST_0142,Robert Weaver,1973-03-11,9289,"95935 Dominique Plain, Leefort, WI 72782",(394)256-5118,2023-02-06,Low,"Conservation officer, nature",45916
+CUST_0143,Andre Rodriguez,1956-08-28,1521,"789 Williams Forges Apt. 037, South Laurieton, MN 73641",001-365-309-4801x4138,2022-02-09,Medium,Ship broker,62318
+CUST_0144,Corey Sandoval,1980-06-30,3931,"195 Park Meadow Apt. 228, Wagnerburgh, ND 79133",555.885.5665x939,2022-06-22,Low,Forest/woodland manager,78699
+CUST_0145,Jesse Moyer,1944-08-06,1567,"Unit 9082 Box 4043, DPO AE 41776",2489889921,2018-10-14,Low,Corporate investment banker,89246
+CUST_0146,Steve Wright,1960-09-23,5920,"315 Thompson Views Apt. 940, Millerton, PW 44330",(766)413-9060x480,2018-07-11,Medium,Environmental consultant,190283
+CUST_0147,Michael Osborn,2005-10-04,9269,"6225 Thomas Summit Apt. 864, South Warrenberg, WV 18178",683.876.9389x8331,2018-06-30,Low,Teaching laboratory technician,79366
+CUST_0148,Michael Henderson,1966-07-12,6254,"2597 Scott Viaduct, East Gina, FL 99818",001-911-203-9240x5147,2018-07-27,Low,Soil scientist,63990
+CUST_0149,Joshua Christensen,1979-02-27,3315,"9804 Brian Flats, Briantown, CA 51441",+1-345-410-4636x81579,2017-05-16,Low,"Programmer, systems",39202
+CUST_0150,Michelle Williams,2002-09-08,5995,"205 Kelly Hollow Apt. 840, Natashatown, OH 37226",525.862.1689,2017-09-30,Low,"Designer, ceramics/pottery",80174

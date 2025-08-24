@@ -1,0 +1,23 @@
+# Essential Dependencies for SAR Processing System and Exercises
+# Students will learn to work with these key libraries
+
+# Data Processing & Validation
+pandas==2.3.2          # Financial data manipulation
+pydantic==2.11.7         # Data schemas and validation
+
+# AI & LLM Integration
+openai==1.101.0          # OpenAI API for AI agents
+
+# Environment Management
+python-dotenv==1.1.1   # Environment variables
+
+# Development & Testing
+#jupyter==1.1.1         # Notebook development
+pytest==8.4.1          # Unit testing
+
+# Data Visualization
+matplotlib==3.10.5      # Basic plotting
+seaborn==0.13.2        # Statistical visualization
+
+# Additional packages for exercises
+#ipython==9.4.0         # Enhanced interactive Python
