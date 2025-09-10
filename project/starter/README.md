@@ -2,6 +2,10 @@
 
 ## 📋 Project Overview
 
+**The Challenge:** As the newest AI Engineer on the financial crimes task force, you are at the forefront of the bank's defense against a rising tide of illicit transactions. The institution is grappling with increasingly complex schemes, from intricate money laundering operations to sophisticated fraud networks, and the pressure from regulators is mounting. 
+
+Your mission is to architect and build an intelligent, two-pronged AI system that can not only think like a seasoned Risk Analyst to detect suspicious activities but also write like a Compliance Officer to articulate these findings in perfectly crafted Suspicious Activity Reports. This system will be the critical tool that empowers the compliance team to move faster, act with greater precision, and ultimately protect the integrity of the financial system, all while under the watchful eye of regulatory examiners who will scrutinize your work for its accuracy, efficiency, and transparency.
+
 You will build an **AI-powered Suspicious Activity Report (SAR) processing system** that automates financial crime detection using a multi-agent architecture. This project simulates real-world regulatory requirements that financial institutions face when detecting and reporting suspicious activities to authorities like FinCEN.
 
 ### 🎯 Learning Objectives
@@ -45,7 +49,7 @@ Your system will consist of **two specialized AI agents**:
 ### Prerequisites
 
 - Python 3.8+
-- OpenAI API key
+- Vocareum OpenAI API key (from your Udacity workspace "Cloud Resources")
 - VS Code with Jupyter extension (recommended)
 
 ### 1. Environment Setup
@@ -57,12 +61,26 @@ cd project/starter
 # Install dependencies
 pip install -r requirements.txt
 
-# Set up your OpenAI API key
+# Set up your Vocareum OpenAI API key
 cp .env.template .env
-# Edit .env and add your OPENAI_API_KEY
+# Edit .env and replace the placeholder with your actual Vocareum API key
 ```
 
-### 2. Project Structure
+### 2. Vocareum OpenAI API Key Setup
+
+**Important:** This project uses Vocareum OpenAI API keys, not direct OpenAI keys.
+
+**Getting Your API Key:**
+1. In your Udacity workspace, click "Cloud Resources" in the navigation pane
+2. Copy the provided OpenAI API key (starts with `voc-`)
+3. Paste it into your `.env` file as `OPENAI_API_KEY=voc-your-actual-key-here`
+
+**Key Differences:**
+- Vocareum keys start with `voc-` instead of `sk-`
+- API calls are routed through `https://openai.vocareum.com/v1`
+- Budget and usage are managed by Udacity through Vocareum
+
+### 3. Project Structure
 
 ```
 starter/
@@ -91,6 +109,7 @@ starter/
 │   ├── filed_sars/            # SAR documents
 │   └── audit_logs/            # Decision audit trails
 └── docs/                      # Additional documentation
+    ├── system_architecture.md    # 🏗️ SYSTEM OVERVIEW (Read FIRST!)
     ├── prompting_guide.md
     ├── regulatory_context.md
     └── troubleshooting.md
@@ -98,8 +117,22 @@ starter/
 
 ## 📚 Project Phases
 
-### Phase 1: Foundation & Data Modeling (Week 1)
+### 🏗️ **PREREQUISITE: System Architecture Overview**
+**📖 Before Starting Phase 1, Read:** `docs/system_architecture.md`
+
+**Understanding Required:**
+- Complete system data flow from CSV files to SAR documents
+- Role of each Pydantic schema (Customer, Account, Transaction, Case)
+- Purpose of RiskAnalystOutput and ComplianceOfficerOutput schemas
+- ExplainabilityLogger and audit trail requirements
+- DataLoader responsibilities and error handling
+- Human-in-the-loop decision gates
+
+**Why This Matters:** Phase 1 requires implementing foundation components (schemas, logger, dataloader) that you haven't encountered in the data exploration notebook. The system architecture explains what each component does and how they work together.
+
+### Phase 1: Foundation & Data Modeling
 **Notebook: `01_data_exploration.ipynb`**
+**📖 Required Reading FIRST:** `docs/system_architecture.md`
 
 **Learning Focus:** Pydantic schemas, data validation, type safety
 
@@ -118,7 +151,7 @@ starter/
 - [ ] Audit logging captures all operations
 - [ ] **Unit tests pass**: `python -m pytest tests/test_foundation.py -v` (10/10 tests should pass)
 
-### Phase 2: Risk Analyst Agent (Week 2)
+### Phase 2: Risk Analyst Agent
 **Notebook: `02_agent_development.ipynb`**
 
 **Learning Focus:** Chain-of-Thought prompting, financial crime detection
@@ -139,7 +172,7 @@ starter/
 - [ ] Handles edge cases and parsing errors
 - [ ] **Unit tests pass**: `python -m pytest tests/test_risk_analyst.py -v` (10/10 tests should pass)
 
-### Phase 3: Compliance Officer Agent (Week 3)
+### Phase 3: Compliance Officer Agent
 **Notebook: `02_agent_development.ipynb` (continued)**
 
 **Learning Focus:** ReACT prompting, regulatory narrative generation
@@ -160,7 +193,7 @@ starter/
 - [ ] Validates narrative completeness
 - [ ] **Unit tests pass**: `python -m pytest tests/test_compliance_officer.py -v` (10/10 tests should pass)
 
-### Phase 4: Workflow Integration (Week 4)
+### Phase 4: Workflow Integration
 **Notebook: `03_workflow_integration.ipynb`**
 
 **Learning Focus:** Multi-agent coordination, human-in-the-loop systems
@@ -359,6 +392,7 @@ Your project will be evaluated on:
 
 ## 📚 Additional Resources
 
+- **🏗️ System Architecture**: `docs/system_architecture.md` - **READ FIRST!** Complete system overview with data flow diagrams
 - **Regulatory Context**: `docs/regulatory_context.md`
 - **Prompting Guide**: `docs/prompting_guide.md`
 - **Troubleshooting**: `docs/troubleshooting.md`
@@ -366,10 +400,11 @@ Your project will be evaluated on:
 
 ## 🆘 Getting Help
 
-1. **Review the documentation** in the `docs/` folder
-2. **Check the test files** for expected behavior
-3. **Use the notebooks** for interactive development
-4. **Study the sample data** to understand patterns
+1. **🏗️ Start with System Architecture** - Read `docs/system_architecture.md` for complete system understanding
+2. **Review the documentation** in the `docs/` folder
+3. **Check the test files** for expected behavior
+4. **Use the notebooks** for interactive development
+5. **Study the sample data** to understand patterns
 
 Remember: This project simulates real regulatory requirements. Focus on building systems that are **explainable**, **auditable**, and **compliant** with financial regulations.
 
