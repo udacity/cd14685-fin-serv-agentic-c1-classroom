@@ -35,3 +35,35 @@ Each `lesson` folder contains an `exercises` folder. This `exercises` folder sho
 ### Project Folder
 
 The `project` folder should contain all files and instructions necessary for setup. If possible, a set of instructions should be provided for both Udacity workspaces and a way to work locally (for both MacOS and Windows OS). At a minimum, one set of instructions should be provided. A `README` template has been provided in the project folder. This template layout should be used to write your README.
+
+## Vocareum OpenAI Client Configuration
+
+All exercise files in this repository use the Vocareum-specific OpenAI client configuration to ensure they run correctly in the Udacity classroom environment.
+
+### Required Configuration
+
+Exercise notebooks use the following OpenAI client setup:
+
+```python
+# Setup OpenAI client for Vocareum environment
+client = OpenAI(
+    base_url="https://openai.vocareum.com/v1",
+    api_key=os.getenv("OPENAI_API_KEY")
+)
+```
+
+### Key Requirements
+- All exercise notebooks include the `base_url="https://openai.vocareum.com/v1"` parameter
+- API keys are loaded from environment variables using `os.getenv("OPENAI_API_KEY")`
+- The API key should start with `voc-` for Vocareum environments
+- Proper error handling is included for missing API keys
+
+### Helper Function for Projects
+
+For project work, you can use the helper function provided in the project starter code:
+```python
+from src import create_vocareum_openai_client
+
+# Create client with proper Vocareum configuration
+client = create_vocareum_openai_client()
+```
