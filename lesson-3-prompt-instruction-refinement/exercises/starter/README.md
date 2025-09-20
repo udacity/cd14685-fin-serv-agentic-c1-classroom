@@ -1,123 +1,106 @@
-# Lesson 3 Exercise: Financial Risk Assessment Prompt Optimization
+# Lesson 3 Exercise: Prompt Component Refinement for Financial AI
 
-## Overview
+## Exercise Overview: Transforming Poor Prompts into Professional Instructions
 
-In this hands-on exercise, you will learn to systematically refine and optimize prompts for a financial risk assessment system. You'll implement automated testing frameworks, measure prompt performance, and iteratively improve accuracy for critical financial decision-making scenarios.
+You've learned about the essential components of effective prompts: Role, Task, Output Format, Examples, and Context. Now you'll see their dramatic impact by refining poorly constructed prompts and witnessing the stark improvement in AI output quality.
 
-## Learning Objectives
+## Exercise: Prompt Component Refinement
 
-By completing this exercise, you will:
-- **Design systematic refinement processes** for prompt optimization
-- **Implement automated testing frameworks** to evaluate prompt variations
-- **Optimize prompts for financial accuracy** and regulatory compliance
-- **Measure and compare performance** using quantitative metrics
-- **Apply iterative improvement** methodologies for continuous enhancement
+**File**: `lesson-3-prompt-component-refinement.ipynb`  
+**Time**: 15-20 minutes  
+**Focus**: Hands-on prompt improvement using the five essential components
 
-## Exercise Structure
+---
 
-### **Part 1: Baseline Risk Assessment (3 min)**
-- Create initial prompt for customer risk evaluation
-- Test with baseline financial scenarios
-- Establish performance benchmark
+## The Challenge: Seeing the Difference
 
-### **Part 2: Systematic Refinement Framework (5 min)**
-- Build automated prompt testing system
-- Create variations for A/B testing
-- Implement performance measurement tools
+This exercise demonstrates the power of proper prompt construction through before/after comparisons. You'll start with terrible prompts that produce vague, generic responses and transform them into professional-grade instructions that generate bank-ready analyses.
 
-### **Part 3: Optimization Techniques (4 min)**
-- Apply prompt engineering best practices
-- Test instruction clarity and specificity
-- Optimize for compliance and accuracy
+## Your Mission: Mastering Prompt Components
 
-### **Part 4: Advanced Refinement (3 min)**
-- Implement context optimization
-- Test parameter tuning (temperature, etc.)
-- Measure consistency and reliability
+You'll systematically improve prompts by adding each component:
 
-### **Part 5: Performance Evaluation (3 min)**
-- Compare all prompt variations
-- Analyze effectiveness metrics
-- Select optimal refined prompt
+1. **ROLE Component**: Transform generic AI into a Senior Commercial Loan Underwriter with specific expertise
+2. **TASK Component**: Replace vague instructions with clear, actionable objectives
+3. **OUTPUT FORMAT Component**: Convert unstructured responses into professional business documents
+4. **EXAMPLES Component**: Guide AI with concrete illustrations of desired analysis quality
+5. **CONTEXT Component**: Provide essential background about regulations, market conditions, and policies
 
-### **Part 6: Production Validation (2 min)**
-- Test refined prompts with complex scenarios
-- Validate regulatory compliance alignment
-- Document improvement results
+## Key Learning: Each Component's Impact
 
-## Key Focus Areas
+### What You'll Experience:
 
-### **Financial Risk Assessment Context**
-- **Customer Due Diligence**: Systematic evaluation of customer risk profiles
-- **Regulatory Compliance**: Ensuring adherence to financial regulations
-- **Decision Accuracy**: Optimizing for precise risk categorization
-- **Consistency**: Reliable assessment across different scenarios
+**Starting Point**: "What do you think about this loan?"
+- Vague, generic advice
+- No professional terminology
+- Unusable for business decisions
 
-### **Prompt Refinement Techniques**
-- **Instruction Clarity**: Clear, unambiguous directive language
-- **Context Optimization**: Relevant background information inclusion
-- **Output Formatting**: Structured, actionable response formats
-- **Error Reduction**: Minimizing false positives and negatives
+**After Adding Each Component**:
+- **+ Role**: Professional expertise and credibility
+- **+ Task**: Focused, comprehensive analysis
+- **+ Format**: Structured, parseable output
+- **+ Examples**: Appropriate depth and style
+- **+ Context**: Informed, realistic recommendations
 
-### **Performance Measurement**
-- **Accuracy Metrics**: Precision in risk level assignments
-- **Consistency Analysis**: Reliability across similar scenarios  
-- **Compliance Scoring**: Adherence to regulatory requirements
-- **Response Quality**: Usefulness and actionability of outputs
+**Final Result**: Bank-ready loan underwriting analysis with specific financial metrics, risk assessments, and actionable recommendations.
 
-## Technical Implementation
+## Instructions
 
-### **Automated Testing Framework**
-- Systematic prompt variation generation
-- Batch testing with multiple scenarios
-- Performance data collection and analysis
-- Statistical comparison of results
+### Time Estimate: 15-20 minutes
 
-### **Evaluation Metrics**
-- Quantitative accuracy measurements
-- Qualitative response assessment
-- Compliance checklist validation
-- User experience and clarity scoring
+1. **Setup (2 minutes)**: 
+   - Open `lesson-3-prompt-component-refinement.ipynb`
+   - Configure OpenAI client with provided API key
 
-## Expected Outcomes
+2. **Exercise 1 - ROLE Component (3 minutes)**:
+   - Complete the TODO sections to add specific professional role
+   - Test the comparison and observe the improvement
 
-After completing this exercise, you'll have:
-- ✅ **Refined prompt system** with measurably improved performance
-- ✅ **Automated testing framework** for ongoing optimization
-- ✅ **Performance benchmarks** for future improvements
-- ✅ **Optimization methodology** applicable to other financial AI systems
-- ✅ **Compliance-aligned prompts** meeting regulatory standards
+3. **Exercise 2 - TASK Component (3 minutes)**:
+   - Add clear objectives and specific deliverables
+   - See how focus improves output quality
 
-## Prerequisites
+4. **Exercise 3 - OUTPUT FORMAT Component (3 minutes)**:
+   - Create structured template for consistent responses
+   - Compare unstructured vs. formatted output
 
-- Completion of Lesson 1 (Role-based prompting fundamentals)
-- Completion of Lesson 2 (Chain-of-Thought and ReACT reasoning)
-- Basic understanding of financial risk assessment concepts
-- Familiarity with OpenAI API and Python development
+5. **Exercise 4 - EXAMPLES Component (2 minutes)**:
+   - Add concrete examples of desired analysis style
+   - Observe how examples guide AI behavior
 
-## Estimated Time
+6. **Exercise 5 - CONTEXT Component (3 minutes)**:
+   - Include regulatory, market, and policy background
+   - See how context improves decision quality
 
-**Total: 20 minutes**
-- Setup and initial testing: 5 minutes
-- Systematic refinement: 8 minutes
-- Performance evaluation: 4 minutes
-- Documentation and reflection: 3 minutes
-
-## Files in this Exercise
-
-1. **`lesson-3-financial-risk-optimization.ipynb`** - Main guided exercise with TODOs
-2. **`lesson-3-financial-risk-optimization-solution.ipynb`** - Complete solution reference
-3. **`lesson-3-financial-risk-optimization-starter.ipynb`** - Blank template for independent practice
-
-Start with the main notebook for guided practice, refer to the solution when needed, and use the starter for additional practice or alternative approaches.
+7. **Exercise 6 - Complete Transformation (3 minutes)**:
+   - Combine all components into ultimate prompt
+   - Witness the dramatic before/after difference
 
 ## Success Criteria
 
-You'll know you've successfully completed this exercise when you can:
-- [ ] Create systematic prompt refinement processes
-- [ ] Measure quantitative improvements in prompt performance
-- [ ] Optimize prompts for financial accuracy and compliance
-- [ ] Implement automated testing and evaluation frameworks
-- [ ] Apply iterative improvement methodologies effectively
+By completing this exercise, you should be able to:
 
-Ready to master prompt optimization for financial AI systems? Let's begin! 🚀
+- ✅ Identify the specific impact of each prompt component
+- ✅ Transform vague prompts into professional instructions
+- ✅ Create structured output formats for consistent results
+- ✅ Use examples to guide AI style and depth
+- ✅ Apply relevant context for informed decision-making
+- ✅ Recognize the dramatic difference in output quality
+
+## Key Insights You'll Discover
+
+**Component Synergy**: Each element builds on the others for multiplicative improvement
+
+**Measurable Impact**: The difference between poor and optimized prompts is immediately visible and quantifiable
+
+**Professional Application**: Proper prompts produce output that meets real business standards
+
+## Financial Services Context
+
+This exercise focuses on:
+- **Loan Underwriting**: Core financial analysis requiring professional expertise
+- **Risk Assessment**: Systematic evaluation with industry-specific knowledge
+- **Regulatory Compliance**: Incorporating BSA/AML and banking regulations
+- **Business Documentation**: Creating professional-grade reports and analyses
+
+The loan application scenario provides realistic context for demonstrating how prompt components directly impact the quality and usability of financial AI systems.
