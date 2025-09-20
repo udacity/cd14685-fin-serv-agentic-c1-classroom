@@ -1,93 +1,96 @@
-# Lesson 2 Exercise: Suspicious Transaction Analysis with Chain-of-Thought and ReACT
+# Lesson 2 Exercise: ReACT Framework with Real Tool Integration
 
-## Exercise Introduction: Building Systematic Reasoning for Financial Risk Detection
+## Exercise Overview: Building Authentic ReACT Systems for Financial Compliance
 
-You've learned about Chain-of-Thought (CoT) prompting for systematic reasoning and ReACT framework for combining reasoning with actions. Now, you'll apply these advanced techniques to create an AI system that can analyze suspicious financial transactions with transparent, step-by-step reasoning.
+You've learned about Chain-of-Thought (CoT) prompting for systematic reasoning and ReACT framework for combining reasoning with actions. Now, you'll apply the ReACT methodology to create an AI system that can perform actual financial investigations using real tools and data.
 
-### The Challenge: Creating Transparent Financial Risk Analysis
+## Exercise: ReACT Framework with Financial Investigation Tools
 
-Imagine you're building an AI system for a bank's compliance team that needs to analyze potentially suspicious transactions. The system must not only identify risks but also provide clear, auditable reasoning that regulatory examiners can review. How do you create AI agents that think through complex financial scenarios step-by-step and take appropriate investigative actions?
+**File**: `lesson-2-react-tool-integration.ipynb`  
+**Time**: 15-20 minutes  
+**Focus**: Authentic ReACT implementation with real tool usage and JSON integration
 
-### Your Mission: Becoming a Financial AI Reasoning Architect
+---
 
-In this exercise you'll build an advanced financial transaction analysis system that uses both CoT and ReACT methodologies. You will:
+## The Challenge: Building Real ReACT Systems with Tool Usage
 
-1. Implement **Chain-of-Thought reasoning** for systematic transaction risk analysis
-2. Apply **ReACT framework** to combine reasoning with investigative actions
-3. Create **transparent decision processes** that meet regulatory audit requirements
-4. Build **multi-step analysis workflows** for complex suspicious activity detection
+Unlike basic ReACT that just describes actions, this exercise focuses on building ReACT systems that can call real functions, parse JSON responses, and maintain investigation state. You'll create an authentic financial compliance investigation system.
+
+## Your Mission: Creating ReACT with Real Tool Integration
+
+In this exercise, you'll build a complete ReACT system with actual tool usage:
+
+1. **Complete Investigation Tools**: Implement financial investigation functions with real data
+2. **Tool Execution System**: Build JSON parsing and tool calling capabilities  
+3. **ReACT Workflow**: Create end-to-end investigation process with reasoning
+4. **Comparative Analysis**: See the difference between basic analysis and ReACT with tools
+
+## Key Components You'll Implement
+
+### Investigation Tools (in `investigation_tools.py`)
+- **`get_transaction_history()`**: Retrieve account transaction patterns
+- **`get_customer_profile()`**: Get customer demographics and risk data
+- **`check_regulatory_thresholds()`**: Verify compliance requirements
+- **Tool execution framework**: JSON parsing and error handling
+
+### ReACT Investigation System
+- **Multi-step reasoning**: LLM decides what tools to use
+- **Real tool calls**: Actual function execution with parameters
+- **Result integration**: Tool outputs inform next reasoning steps
+- **Investigation workflow**: Complete compliance investigation process
 
 ## Instructions
 
-Follow these steps to complete the exercise in your development environment:
-
 ### Time Estimate: 15-20 minutes
 
-### 1. Open the Notebook
-Launch the "Lesson 2: Suspicious Transaction Analysis - CoT and ReACT" exercise notebook.
+1. **Setup (2 minutes)**: 
+   - Open `lesson-2-react-tool-integration.ipynb`
+   - Configure OpenAI client with provided API key
 
-### 2. Initial Setup (2 minutes)
-- Ensure you've installed packages: `pip install -r ../../requirements.txt`
-- Your OpenAI API key is configured in the root `.env` file
-- Review the suspicious transaction scenarios provided
+2. **Complete Investigation Tools (5 minutes)**:
+   - Implement TODO sections in `investigation_tools.py`
+   - Test tools to understand their output format
 
-### 3. Step 1: Basic Transaction Analysis (3 minutes)
-- Find the section "1. Basic Transaction Analysis"
-- Run the baseline analysis without structured reasoning
-- Observe the limitations of unstructured AI responses for compliance use
+3. **Build ReACT System (8 minutes)**:
+   - Complete ReACT prompt with tool descriptions
+   - Implement investigation workflow with tool calling
+   - Add JSON parsing and tool execution logic
 
-### 4. Step 2: Chain-of-Thought Implementation (5 minutes)
-- Go to section "2. Chain-of-Thought Transaction Analysis"
-- You'll see **helpful hints** provided in the prompt structure
-- **Your Task**: Use the guided 5-step framework: Data Review → Pattern Recognition → Risk Assessment → Regulatory Analysis → Conclusion
-- The prompts are already structured with hints to complete quickly
+4. **Run Investigation (3 minutes)**:
+   - Execute ReACT investigation on suspicious activity case
+   - Compare basic analysis vs ReACT with tools
+   - Analyze the improvement in decision quality
 
-### 5. Step 3: ReACT Framework Development (5 minutes)
-- Move to section "3. ReACT Framework for Investigation"
-- Find **guided structure** with example actions provided
-- **Your Task**: Use the Observation → Thought → Action cycles with provided framework
-- Run the examples to see ReACT methodology in action
-
-### 6. Step 4: Complex Scenario Analysis (3 minutes)
-- Proceed to section "4. Complex Suspicious Activity Analysis"
-- Apply both CoT and ReACT to challenging scenarios
-- **Your Task**: Test your frameworks on multi-layered suspicious patterns
-- Compare effectiveness of different reasoning approaches
-
-### 7. Step 5: Performance Comparison (2 minutes)
-- Go to section "5. Reasoning Method Comparison"
-- Test different prompting approaches on the same scenarios
-- **Your Task**: Evaluate when to use CoT vs ReACT approaches
-- Document your observations
-
-### 8. Step 6: Reflection (2 minutes)
-- Navigate to section "6. Reflection & Best Practices"
-- Document your insights about different reasoning methodologies
-- **Your Task**: Complete the reflection questions with your observations
-- Compare strengths and weaknesses of each approach
+5. **Test Custom Scenario (2 minutes)**:
+   - Try different customer/account combinations
+   - Observe how ReACT adapts investigation approach
 
 ## Success Criteria
 
-By the end of this exercise, you should be able to:
-- ✅ Implement effective Chain-of-Thought prompting for financial analysis
-- ✅ Apply ReACT framework to combine reasoning with investigative actions
-- ✅ Create transparent, auditable reasoning processes for compliance
-- ✅ Analyze complex suspicious activity patterns systematically
-- ✅ Compare different reasoning methodologies effectively
-- ✅ Understand when to use different reasoning approaches
+By completing this exercise, you should be able to:
+
+- ✅ Implement real tools that ReACT systems can use
+- ✅ Build proper JSON parsing for tool communication
+- ✅ Create complete investigation workflows with tool integration
+- ✅ Understand the power of ReACT with actual tool usage vs. simulated actions
+- ✅ Apply ReACT methodology to financial compliance scenarios
+
+## Key Learning: Real vs. Simulated ReACT
+
+**Basic ReACT** (just reasoning):
+- "I would check the transaction history" ❌
+- Speculation-based analysis
+- No real data integration
+
+**ReACT with Tools** (what you'll build):
+- Actually calls `get_transaction_history()` and processes results ✅
+- Data-driven investigation decisions
+- Evidence-based compliance recommendations
 
 ## Financial Services Context
 
-This exercise focuses on:
-- **Transaction Risk Analysis**: Core function requiring systematic reasoning
-- **Regulatory Transparency**: Essential for compliance and audit requirements
-- **Investigative Workflows**: Combining analysis with actionable next steps
-- **Reasoning Methodology Comparison**: Understanding tool selection
-
-## Learning Outcomes
-
-This hands-on practice reinforces:
-- Chain-of-Thought and ReACT methodologies from the lesson
-- Financial services compliance and audit requirements
-- Systematic reasoning for complex decision-making
-- Practical application of reasoning frameworks
+This exercise demonstrates:
+- **Systematic Investigation**: Using tools to gather evidence step-by-step
+- **Regulatory Compliance**: Checking actual thresholds and requirements
+- **Audit Trail**: Complete record of reasoning and actions taken
+- **Practical Implementation**: Ready for real-world compliance workflows
