@@ -1,0 +1,24 @@
+# Requirements for Financial Services Agentic AI Course
+# Install with: pip install -r requirements.txt
+
+# Core Dependencies
+openai>=1.0.0          # OpenAI API for LLM integration
+python-dotenv>=1.0.0   # Environment variable management
+pandas>=2.0.0          # Data manipulation and analysis
+pydantic>=2.0.0        # Data validation and schemas
+
+# Jupyter Environment
+jupyter>=1.0.0         # Jupyter notebook support
+notebook>=7.0.0        # Notebook interface
+ipykernel>=6.0.0       # IPython kernel for notebooks
+ipywidgets>=8.0.0      # Interactive widgets for notebooks
+
+# Data Visualization
+matplotlib>=3.7.0      # Basic plotting
+seaborn>=0.12.0        # Statistical visualization
+
+# Development & Testing
+pytest>=7.0.0          # Unit testing framework
+
+# Additional Utilities
+requests>=2.31.0       # HTTP requests (for API interactions)

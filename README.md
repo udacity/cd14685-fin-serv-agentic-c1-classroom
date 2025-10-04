@@ -1,6 +1,41 @@
-# Purpose of This Repo
+# Financial Services Agentic AI Course
 
-This repo is meant to be used to keep things organized during content development and act as the source of truth for all projects and exercises related to this course.
+This repo contains all course materials for the Financial Services Agentic AI course, including lessons, exercises, demos, and a capstone project.
+
+## Quick Setup
+
+### Prerequisites
+- Python 3.8+ installed on your system
+- Git (for cloning the repository)
+
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/udacity/cd14685-fin-serv-agentic-c1-classroom.git
+   cd cd14685-fin-serv-agentic-c1-classroom
+   ```
+
+2. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set up your environment variables:
+   - Copy the provided `.env` file or create one with your OpenAI API key
+   - For Vocareum environments, the API key should start with `voc-`
+
+4. Launch Jupyter:
+   ```bash
+   jupyter notebook
+   ```
+
+### Alternative Setup (Automatic)
+Use the provided setup script:
+```bash
+./setup.sh
+```
+
+📖 **For detailed setup instructions and troubleshooting, see [GETTING_STARTED.md](GETTING_STARTED.md)**
 
 ## Folder Structure
 
