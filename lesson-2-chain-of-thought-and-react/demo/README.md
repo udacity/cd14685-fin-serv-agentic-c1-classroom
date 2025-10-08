@@ -18,8 +18,6 @@ This demo demonstrates the evolution from basic analysis to sophisticated reason
 2. **Chain-of-Thought Implementation**: 5-step systematic analysis process for consistent investigation quality
 3. **Simple ReACT Framework**: Observation → Thought → Action cycles for iterative investigation
 4. **Advanced ReACT with Tools**: Simulation of real investigation tool integration and usage
-5. **Complex Multi-Layer Cases**: Testing frameworks against sophisticated fraud patterns
-6. **Framework Comparison**: Direct comparison of reasoning approaches on identical scenarios
 
 ## Learning Objectives
 
@@ -37,7 +35,6 @@ The demo uses:
 - **Framework Evolution**: Shows natural progression from basic analysis to advanced ReACT
 - **Real-World Context**: Authentic fraud patterns and investigation techniques
 - **Tool Simulation**: Demonstrates how ReACT agents interact with investigation databases
-- **Comparative Analysis**: Side-by-side evaluation of different reasoning approaches
 
 ## Connection to Exercise
 

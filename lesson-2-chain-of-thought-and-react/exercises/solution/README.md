@@ -43,8 +43,7 @@ The solution notebook demonstrates a full end-to-end ReACT workflow:
 3. **ReACT Prompt Engineering**: Comprehensive prompt that teaches LLM tool usage with JSON formatting
 4. **Investigation Scenario**: Realistic suspicious activity case (CUST_001 + high_risk_account_001)
 5. **Multi-Round Investigation**: Iterative ReACT workflow with tool execution and result integration
-6. **Comparative Analysis**: Side-by-side comparison of basic analysis vs. ReACT with tools
-7. **Custom Testing Framework**: Template for creating and testing additional scenarios
+6. **Custom Testing Framework**: Template for creating and testing additional scenarios
 
 ### Key Code Components
 - **`run_react_investigation()`**: Main investigation loop with LLM calls and tool execution

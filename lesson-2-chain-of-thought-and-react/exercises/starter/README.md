@@ -23,7 +23,6 @@ In this exercise, you'll build a complete ReACT system with actual tool usage:
 1. **Complete Investigation Tools**: Implement financial investigation functions with real data
 2. **Tool Execution System**: Build JSON parsing and tool calling capabilities  
 3. **ReACT Workflow**: Create end-to-end investigation process with reasoning
-4. **Comparative Analysis**: See the difference between basic analysis and ReACT with tools
 
 ## Key Components You'll Implement
 

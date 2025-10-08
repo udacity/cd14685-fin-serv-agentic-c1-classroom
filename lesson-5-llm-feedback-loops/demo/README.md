@@ -1,108 +1,129 @@
 # Lesson 5 Demo: LLM Feedback Loops for Financial AI
 
 ## Overview
-This demonstration showcases how to build LLM feedback loops where one AI system generates financial analysis and another AI system evaluates and provides feedback to continuously improve the analysis quality. This represents iterative AI-to-AI learning for enhanced financial decision-making.
+This demonstration showcases how to build LLM feedback loops where AI agents collaborate as an investment advisory team. One AI creates personalized investment recommendations while another AI provides compliance review and feedback to ensure quality and regulatory standards.
 
-## Scenario: Self-Improving Credit Assessment Systems
-Unlike the exercise which focuses on stock market analysis, this demo uses credit risk assessment to demonstrate feedback loop concepts. A Credit Analyst LLM generates loan assessments while a Credit Evaluator LLM provides quality feedback for iterative improvement.
+## Featured Demo: Investment Advisory Teams
+
+**File**: `lesson-5-investment-advisory-demo.ipynb`  
+**Scenario**: AI-Powered Investment Advisory Services  
+**Duration**: 12-15 minutes  
+**Approach**: Live collaborative AI demonstration
+
+### The AI Advisory Team
+- **Investment Advisor LLM**: Creates personalized investment strategies
+- **Compliance Officer LLM**: Reviews recommendations for risk and regulatory compliance
+- **Collaboration Result**: Professional-grade advisory with automated quality control
+
+### What Makes This Demo Special
+- **Real-time AI Collaboration**: Watch AI agents work together live
+- **Multiple Client Scenarios**: See how the same system adapts to different profiles
+- **Immediate Quality Improvement**: Observe recommendations enhance through feedback
+- **Practical Business Application**: Investment advisory that scales with AI efficiency
 
 ## Learning Objectives
-- Understand LLM-to-LLM feedback loop architecture
-- Learn iterative improvement methodologies for financial AI
-- Master evaluation criteria design for AI system improvement
-- Observe quality enhancement through feedback integration
-- Practice building self-learning financial analysis systems
+- Understand how AI agents collaborate with specialized expertise
+- Experience real-time LLM-to-LLM feedback and improvement
+- Learn automated quality assurance for financial recommendations  
+- See how AI systems adapt to different client profiles and requirements
+- Observe professional-grade advisory processes scalable through AI
 
 ## Key Concepts Demonstrated
 
-### 1. Single-Pass Analysis Limitations
-- Shows why one-time analysis isn't sufficient for complex financial decisions
-- Demonstrates inconsistency and quality gaps in basic approaches
+### 1. AI Team Collaboration
+- **Investment Advisor**: Creates personalized investment strategies
+- **Compliance Officer**: Reviews recommendations for risk and regulatory standards
+- **Collaborative Result**: Better outcomes than either AI could achieve alone
 
-### 2. Two-LLM Architecture  
-- **Credit Analyst LLM**: Generates comprehensive credit risk assessments
-- **Credit Evaluator LLM**: Evaluates analysis quality and provides structured feedback
-- Feedback integration mechanism for continuous improvement
+### 2. Real-Time Quality Improvement
+- Initial recommendation generation based on client profile
+- Systematic compliance review and feedback
+- Iterative refinement addressing specific concerns
+- Final approval process ensuring professional standards
 
-### 3. Iterative Improvement Process
-1. **Analysis Generation**: Credit analyst produces loan assessment
-2. **Quality Evaluation**: Evaluator scores assessment across multiple criteria
-3. **Feedback Integration**: Analyst incorporates improvement suggestions
-4. **Iteration**: Process repeats with enhanced analysis quality
+### 3. Client-Specific Adaptation
+- Conservative retiree: Capital preservation, income generation
+- Moderate professional: Growth with risk management
+- Aggressive investor: Maximum growth potential with volatility acceptance
+- Same AI system, completely different strategies
 
-### 4. Quality Metrics and Measurement
-- Structured evaluation across 8 key criteria
-- Overall quality scoring (1-10 scale)
-- Improvement tracking across iterations
-- Early stopping for high-quality results
-
-## Technical Implementation
-
-### Data Structures
-- `CreditApplication`: Loan applicant information and financial data
-- `CreditAssessment`: Structured analysis output with recommendations
-- `EvaluationFeedback`: Systematic quality assessment and improvement suggestions
-
-### Core Components
-- `CreditAnalyst`: Advanced analyst with feedback integration capabilities
-- `CreditEvaluator`: Quality assessment system with structured evaluation criteria
-- `FeedbackLoopSystem`: Complete orchestration of the iterative improvement process
-
-### Key Features
-- **Feedback Integration**: Systematic incorporation of evaluation insights
-- **Quality Convergence**: Progressive improvement through multiple iterations
-- **Structured Evaluation**: Consistent criteria for objective assessment
-- **Self-Learning**: Autonomous quality improvement without human intervention
+### 4. Automated Professional Standards
+- Regulatory compliance review for every recommendation
+- Risk assessment aligned with client tolerance
+- Suitability evaluation for investment selections
+- Quality assurance without human intervention
 
 ## Business Applications
 
-### Credit Risk Management
-- **Loan Underwriting**: Self-improving assessment systems with continuous quality enhancement
-- **Risk Scoring**: Iterative refinement of risk evaluation models
-- **Compliance Monitoring**: Automated quality control for regulatory requirements
+### Investment Advisory Services
+- **Robo-Advisory Platforms**: Automated personalized investment advice
+- **Compliance Automation**: Systematic regulatory review processes
+- **Client Onboarding**: Scalable investment planning for new accounts
+- **Risk Management**: Multi-perspective evaluation of strategies
 
-### Broader Financial Services
-- **Investment Analysis**: Research systems that improve through peer AI evaluation
-- **Fraud Detection**: Transaction monitoring with evolving detection accuracy
-- **Portfolio Management**: Self-learning optimization systems
+### Financial Services Innovation
+- **Quality Assurance**: AI-powered peer review for financial products
+- **Regulatory Technology**: Automated compliance monitoring
+- **Personalization at Scale**: Individual advisory for mass market
+- **Professional Standards**: Consistent expertise across all clients
 
-## Comparison: Single-Pass vs. Feedback Loops
+## Demo Highlights
 
-| Aspect | Single-Pass Analysis | LLM Feedback Loops |
-|--------|---------------------|-------------------|
-| Quality Control | Manual review required | Automated quality assessment |
-| Consistency | Variable output quality | Systematic improvement |
-| Learning | No adaptation capability | Continuous self-improvement |
-| Scalability | Human bottleneck | Scalable automation |
-| Cost | High ongoing oversight | Reduces over time |
-| Accuracy | Static performance | Improving performance |
+### Live AI Collaboration
+Watch two AI agents work together in real-time:
+1. Investment Advisor creates initial strategy
+2. Compliance Officer provides structured review
+3. Investment Advisor refines based on feedback
+4. Process continues until quality standards are met
 
-## Performance Metrics
-- Quality score improvement tracking
-- Iteration efficiency analysis  
-- Confidence level measurement
-- Consistency evaluation across assessments
+### Multiple Client Scenarios
+Experience how the same AI system adapts to different needs:
+- **Jessica Rodriguez**: Young professional building wealth
+- **Robert Thompson**: Conservative retiree seeking income
+- **Michael Chang**: Aggressive investor maximizing growth
 
-## Best Practices for Financial AI Feedback Loops
+### Professional-Grade Results
+See automated advisory that matches human financial planner quality:
+- Personalized asset allocation strategies
+- Risk-appropriate investment selections
+- Regulatory compliance verification
+- Clear reasoning and rationale
 
-1. **Clear Evaluation Criteria**: Define specific, measurable quality standards
-2. **Structured Feedback**: Use consistent formats for improvement integration
-3. **Iterative Limits**: Balance quality improvement with computational efficiency
-4. **Quality Thresholds**: Implement early stopping for acceptable results
-5. **Regulatory Alignment**: Ensure feedback loops support compliance requirements
+## Technical Architecture
+
+### AI Agent Design
+- **Investment Advisor**: Certified Financial Planner expertise with client focus
+- **Compliance Officer**: Risk management and regulatory oversight specialization
+- **Communication Protocol**: Structured feedback integration and revision process
+
+### Quality Assurance Process
+1. **Client Profile Analysis**: Understanding goals, timeline, risk tolerance
+2. **Initial Strategy Creation**: Personalized asset allocation and selections
+3. **Compliance Review**: Risk assessment and regulatory evaluation
+4. **Iterative Refinement**: Revision based on specific feedback
+5. **Final Approval**: Meeting both investment and compliance standards
+
+### Scalability Features
+- **Consistent Quality**: Every recommendation gets professional review
+- **Adaptive Personalization**: Same system handles diverse client profiles
+- **Regulatory Compliance**: Automated oversight for financial standards
+- **Efficiency at Scale**: Professional advisory without human bottlenecks
 
 ## Files
-- `lesson-5-feedback-loops-demo.ipynb`: Complete demonstration notebook with iterative credit assessment system
+- `lesson-5-investment-advisory-demo.ipynb`: Main demonstration notebook
+- `RECORDING_SCRIPT_investment-advisory-demo.md`: Complete recording guide
 - `README.md`: This documentation file
 
 ## Prerequisites
 - OpenAI API access configured for Vocareum environment
 - Basic understanding of LLM prompting and Python programming
-- Familiarity with financial risk assessment concepts
+- Familiarity with financial analysis concepts
 
-## Next Steps
-This demo prepares you for the hands-on exercise where you'll build your own LLM feedback loop system for stock market analysis, applying these iterative improvement principles to create self-learning financial AI systems.
+## Exercise Connection
+This demonstration prepares you for the hands-on exercise where you'll build your own LLM feedback loop system for stock market analysis. You'll apply the same collaborative AI principles - analyst and reviewer working together - to create self-improving investment research systems.
+
+**Key Transfer**: The investment advisory team pattern (advisor + compliance officer) directly applies to stock analysis (market analyst + research critic), demonstrating how feedback loops enhance financial decision-making across different domains.
 
 ---
 
-**Note**: This demonstration uses a different financial scenario (credit assessment) than the exercise (stock analysis) to provide broader exposure to LLM feedback loop applications across various financial domains.
+**Duration**: 12-15 minutes | **Format**: Live AI collaboration demo | **Focus**: Professional advisory through AI teamwork
